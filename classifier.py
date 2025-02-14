@@ -19,7 +19,7 @@ class ClassifierLightning(pl.LightningModule):
             input_dim=config.input_dim,
             **self.config.model_config,
         )
-        self.criterion = get_loss(config.criterion, pos_weight=config.pos_weight
+        self.criterion = get_loss(config.criterion #, pos_weight=config.pos_weight
                                  ) if config.task == "binary" else get_loss(config.criterion)
         self.save_hyperparameters()
 
