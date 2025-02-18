@@ -1,8 +1,25 @@
+Location of script in lambda: /nfs/ml_lab/projects/Pilot1_PreclinicalHPC/priyanka/HistoBistro
+
 # HistoBistro
 
 Pipeline for weakly-supervised learning on histology images. The pipeline contains various models for multiple instance learning with different aggregation models. Based on Pytorch Lightning. All aggregation modules can be loaded as model files in the classifier lightning module. Loss, models, optimizers, and schedulers can be specified as strings according to the PyTorch name in the config file.
 
 ![](CancerCellCRCTransformer/visualizations/model.png)
+
+# MSI MSS Classification (Mayo data)
+Files and directories specific to the data - Obtained from the output of ctranspath:  
+- slides_all_per_patient.csv
+- h5_embeddings_per_patient  
+Other files needed
+- clini_table.xlsx
+Files that may need to be modified based on the data:  
+- data_config.yaml  
+- config.yaml  
+
+
+Follow the instructions in this readme to train the model.  
+Attention_rollout_per_patient.ipynb - Compute and plot attention scores and classification scores.
+
 
 ## Repository structure
 ```
