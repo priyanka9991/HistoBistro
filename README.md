@@ -12,7 +12,7 @@ Obtained from the output of ctranspath:
 - slides_all_per_patient.csv
 - h5_embeddings_per_patient  
 Other files needed  
-- clini_table.xlsx
+- clini_table.xlsx  
 Files that may need to be modified based on the data:  
 - data_config.yaml  
 - config.yaml  
