@@ -7,10 +7,11 @@ Pipeline for weakly-supervised learning on histology images. The pipeline contai
 ![](CancerCellCRCTransformer/visualizations/model.png)
 
 # MSI MSS Classification (Mayo data)
-Files and directories specific to the data - Obtained from the output of ctranspath:  
+Files and directories specific to the data -   
+Obtained from the output of ctranspath:  
 - slides_all_per_patient.csv
 - h5_embeddings_per_patient  
-Other files needed
+Other files needed  
 - clini_table.xlsx
 Files that may need to be modified based on the data:  
 - data_config.yaml  
